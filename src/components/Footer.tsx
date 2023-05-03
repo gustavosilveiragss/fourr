@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaInstagram, FaLinkedin, FaGithub, } from "react-icons/fa";
 import { IoMdMail, } from "react-icons/io";
-import Logo from '../../public/logo.svg';
+import Logo from '../../public/icons/logo.svg';
 
 const Footer = () => {
     return (

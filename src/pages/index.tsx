@@ -11,7 +11,7 @@ export default function Index() {
         <title>XP</title>
         <meta name="description" content="XP" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/circle_logo.ico" />
+        <link rel="icon" href="/icons/circle_logo.ico" />
       </Head>
 
       <main>

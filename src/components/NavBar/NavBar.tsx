@@ -3,7 +3,7 @@ import { useSessionStorage } from "usehooks-ts";
 import Image from "next/image";
 
 import NavBarPages from "./NavBarPages";
-import Logo from '../../../public/logo.svg';
+import Logo from '../../../public/icons/logo.svg';
 
 const Navbar = () => {
     const [, setOpen] = useSessionStorage("drawer", false);
