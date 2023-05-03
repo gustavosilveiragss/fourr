@@ -1,31 +1,23 @@
 import Head from 'next/head';
 
-import Home from '../components/Home';
+import Feed from '../components/Feed';
 import DrawerLayout from '../components/NavBar/DrawerLayout';
-import Skills from '../components/Skills';
-import About from '../components/About';
 import Footer from '../components/Footer';
-import Projects from '../components/Projects';
-import Experience from '../components/Experience';
 
 export default function Index() {
   return (
     <>
       <Head>
-        <title>Gustavo Silveira</title>
-        <meta name="description" content="Gustavo Silveira's personal website" />
+        <title>XP</title>
+        <meta name="description" content="XP" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/flavicon.ico" />
+        <link rel="icon" href="/circle_logo.ico" />
       </Head>
 
       <main>
         <div className='bg-base-100 flex-col'>
           <DrawerLayout>
-            <Home />
-            <About />
-            <Skills />
-            <Experience />
-            <Projects />
+            <Feed />
             <Footer />
           </DrawerLayout>
         </div>
