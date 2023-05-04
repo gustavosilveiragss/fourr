@@ -1,38 +1,25 @@
-const NavBtn = ({ id }) => {
-    return (
-        <button
-            onClick={() => {
-                let element = document.getElementById(id);
-                element && element.scrollIntoView({ behavior: "smooth", block: "start" });
-                window.history.replaceState(null, '', ('#' + id));
-            }}
-            className="text-gray-800 font-bold rounded-lg"
-        >
-            {id.toUpperCase()}
-        </button>
-    );
-}
+import Router from 'next/router';
 
 const NavBarPages = () => {
     return (
         <>
             <li>
-                <NavBtn id='logos'></NavBtn>
+                <button className='text-gray-600 rounded-md' type='button' onClick={() => Router.push('/logos')}>LOGOS</button>
             </li>
             <li>
-                <NavBtn id='ilustração digital'></NavBtn>
+                <button className='text-gray-600 rounded-md' type='button' onClick={() => Router.push('/illustration')}>ILUSTRAÇÃO DIGITAL</button>
             </li>
             <li>
-                <NavBtn id='concept art'></NavBtn>
+                <button className='text-gray-600 rounded-md' type='button' onClick={() => Router.push('/concept')}>CONCEPT ART</button>
             </li>
             <li>
-                <NavBtn id='social media'></NavBtn>
+                <button className='text-gray-600 rounded-md' type='button' onClick={() => Router.push('/social')}>SOCIAL MEDIA</button>
             </li>
             <li>
-                <NavBtn id='tatuagens'></NavBtn>
+                <button className='text-gray-600 rounded-md' type='button' onClick={() => Router.push('/tattoo')}>TATUAGENS</button>
             </li>
             <li>
-                <NavBtn id='retratos'></NavBtn>
+                <button className='text-gray-600 rounded-md' type='button' onClick={() => Router.push('/portrait')}>RETRATOS</button>
             </li>
         </>
     )

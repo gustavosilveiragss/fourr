@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import NavBarPages from "./NavBarPages";
 import Logo from '../../../public/icons/logo.svg';
+import Router from "next/router";
 
 const Navbar = () => {
     const [, setOpen] = useSessionStorage("drawer", false);
@@ -11,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div className="w-full sticky top-0 navbar bg-slate-100 z-50 lg:justify-around justify-between">
-            <Image alt="G" height={45} src={Logo} />
+            <button type='button' onClick={() => Router.push('/')}><Image alt="G" height={45} src={Logo} /></button>
 
             <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal">
