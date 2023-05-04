@@ -30,27 +30,29 @@ const ClaraCostaCard = () => {
           />
         </Carousel>
       </figure>
-      <div className="card-body text-gray-700">
-        <h2 className="flex flex-wrap card-title">
-          <img
-            alt="."
-            className="rounded-full w-8 h-8"
-            src="/images/artists/clara_costa/p.jpeg"
-          />{" "}
-          Clara Costa
-        </h2>
-        <p className="text-gray-500">
-          <span className="text-yellow-600 inline-flex items-baseline font-bold">
-            <IoMdStar size={14} /> 4.8
-          </span>{" "}
-          (17)
-          <br />
-          R$ 180,00 - R$ 460,00
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Retrato</div>
+      <a href="/artists/clara-costa">
+        <div className="card-body text-gray-700">
+          <h2 className="flex flex-wrap card-title">
+            <img
+              alt="."
+              className="rounded-full w-8 h-8"
+              src="/images/artists/clara_costa/p.jpeg"
+            />{" "}
+            Clara Costa
+          </h2>
+          <p className="text-gray-500">
+            <span className="text-yellow-600 inline-flex items-baseline font-bold">
+              <IoMdStar size={14} /> 4.8
+            </span>{" "}
+            (17)
+            <br />
+            R$ 180,00 - R$ 460,00
+          </p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Retratos</div>
+          </div>
         </div>
-      </div>
+      </a>{" "}
     </div>
   );
 };

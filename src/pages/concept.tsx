@@ -5,7 +5,7 @@ import DrawerLayout from "../components/NavBar/DrawerLayout";
 import Footer from "../components/Footer";
 import YuChenCard from "../components/cards/YuChenCard";
 import OliverCastroCard from "../components/cards/OliverCastroCard";
-import PippaBakerCard from "../components/cards/PIppaBakerCard";
+import PippaBakerCard from "../components/cards/PippaBakerCard";
 
 export default function concept() {
   return (
@@ -18,7 +18,7 @@ export default function concept() {
       </Head>
 
       <main>
-        <div className="bg-base-100 flex-col">
+        <div className="bg-slate-200 flex-col">
           <DrawerLayout>
             <section id="feed">
               <div className="projects w-full min-h-screen bg-slate-200">

@@ -35,27 +35,29 @@ const AliceSantosCard = () => {
           />
         </Carousel>
       </figure>
-      <div className="card-body text-gray-700">
-        <h2 className="flex flex-wrap card-title">
-          <img
-            alt="."
-            className="rounded-full w-8 h-8"
-            src="/images/artists/alice_santos/p.jpeg"
-          />{" "}
-          Alice Santos
-        </h2>
-        <p className="text-gray-500">
-          <span className="text-yellow-600 inline-flex items-baseline font-bold">
-            <IoMdStar size={14} /> 4.8
-          </span>{" "}
-          (18)
-          <br />
-          R$ 120,00 - R$ 650,00
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Retratos</div>
+      <a href="/artists/alice-santos">
+        <div className="card-body text-gray-700">
+          <h2 className="flex flex-wrap card-title">
+            <img
+              alt="."
+              className="rounded-full w-8 h-8"
+              src="/images/artists/alice_santos/p.jpeg"
+            />{" "}
+            Alice Santos
+          </h2>
+          <p className="text-gray-500">
+            <span className="text-yellow-600 inline-flex items-baseline font-bold">
+              <IoMdStar size={14} /> 4.8
+            </span>{" "}
+            (18)
+            <br />
+            R$ 120,00 - R$ 650,00
+          </p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Retratos</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

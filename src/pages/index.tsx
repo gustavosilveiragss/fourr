@@ -11,7 +11,7 @@ import ClaraCostaCard from "../components/cards/ClaraCostaCard";
 import JadeMendesCard from "../components/cards/JadeMendes";
 import ManoelGomesCard from "../components/cards/ManoelGomesCard";
 import OliverCastroCard from "../components/cards/OliverCastroCard";
-import PippaBakerCard from "../components/cards/PIppaBakerCard";
+import PippaBakerCard from "../components/cards/PippaBakerCard";
 import RobertoPereiraCard from "../components/cards/RobertoPereiraCard";
 
 export default function Index() {
@@ -25,7 +25,7 @@ export default function Index() {
       </Head>
 
       <main>
-        <div className="bg-base-100 flex-col">
+        <div className="bg-slate-200 flex-col">
           <DrawerLayout>
             <section id="feed">
               <div className="projects w-full min-h-screen bg-slate-200">

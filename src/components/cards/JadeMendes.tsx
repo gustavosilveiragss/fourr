@@ -30,27 +30,30 @@ const JadeMendesCard = () => {
           />
         </Carousel>
       </figure>
-      <div className="card-body text-gray-700">
-        <h2 className="flex flex-wrap card-title">
-          <img
-            alt="."
-            className="rounded-full w-8 h-8"
-            src="/images/artists/jade_mendes/p.jpeg"
-          />{" "}
-          Jade Mendes
-        </h2>
-        <p className="text-gray-500">
-          <span className="text-yellow-600 inline-flex items-baseline font-bold">
-            <IoMdStar size={14} /> 3.9
-          </span>{" "}
-          (17)
-          <br />
-          R$ 80,00 - R$ 270,00
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Logos</div>
+      <a href="/artists/jade-mendes">
+        {" "}
+        <div className="card-body text-gray-700">
+          <h2 className="flex flex-wrap card-title">
+            <img
+              alt="."
+              className="rounded-full w-8 h-8"
+              src="/images/artists/jade_mendes/p.jpeg"
+            />{" "}
+            Jade Mendes
+          </h2>
+          <p className="text-gray-500">
+            <span className="text-yellow-600 inline-flex items-baseline font-bold">
+              <IoMdStar size={14} /> 3.9
+            </span>{" "}
+            (17)
+            <br />
+            R$ 80,00 - R$ 270,00
+          </p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Logos</div>
+          </div>
         </div>
-      </div>
+      </a>{" "}
     </div>
   );
 };

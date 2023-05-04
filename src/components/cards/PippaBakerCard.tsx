@@ -40,27 +40,29 @@ const PippaBakerCard = () => {
           />
         </Carousel>
       </figure>
-      <div className="card-body text-gray-700">
-        <h2 className="flex flex-wrap card-title">
-          <img
-            alt="."
-            className="rounded-full w-8 h-8"
-            src="/images/artists/pippa_baker/p.jpeg"
-          />{" "}
-          Pippa Baker
-        </h2>
-        <p className="text-gray-500">
-          <span className="text-yellow-600 inline-flex items-baseline font-bold">
-            <IoMdStar size={14} /> 4.9
-          </span>{" "}
-          (8)
-          <br />
-          R$ 250,00 - R$ 550,00
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Concept Art</div>
+      <a href="/artists/pippa-baker">
+        <div className="card-body text-gray-700">
+          <h2 className="flex flex-wrap card-title">
+            <img
+              alt="."
+              className="rounded-full w-8 h-8"
+              src="/images/artists/pippa_baker/p.jpeg"
+            />{" "}
+            Pippa Baker
+          </h2>
+          <p className="text-gray-500">
+            <span className="text-yellow-600 inline-flex items-baseline font-bold">
+              <IoMdStar size={14} /> 4.9
+            </span>{" "}
+            (8)
+            <br />
+            R$ 250,00 - R$ 550,00
+          </p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Concept Art</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

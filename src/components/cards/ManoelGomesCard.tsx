@@ -40,27 +40,29 @@ const ManoelGomesCard = () => {
           />
         </Carousel>
       </figure>
-      <div className="card-body text-gray-700">
-        <h2 className="flex flex-wrap card-title">
-          <img
-            alt="."
-            className="rounded-full w-8"
-            src="/images/artists/manoel_gomes/1.jpg"
-          />{" "}
-          Manoel Gomes
-        </h2>
-        <p className="text-gray-500">
-          <span className="text-yellow-600 inline-flex items-baseline font-bold">
-            <IoMdStar size={14} /> 3.2
-          </span>{" "}
-          (11)
-          <br />
-          R$ 60,00 - R$ 140,00
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Social Media</div>
+      <a href="/artists/manoel-gomes">
+        <div className="card-body text-gray-700">
+          <h2 className="flex flex-wrap card-title">
+            <img
+              alt="."
+              className="rounded-full w-8"
+              src="/images/artists/manoel_gomes/1.jpg"
+            />{" "}
+            Manoel Gomes
+          </h2>
+          <p className="text-gray-500">
+            <span className="text-yellow-600 inline-flex items-baseline font-bold">
+              <IoMdStar size={14} /> 3.2
+            </span>{" "}
+            (11)
+            <br />
+            R$ 60,00 - R$ 140,00
+          </p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Social Media</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

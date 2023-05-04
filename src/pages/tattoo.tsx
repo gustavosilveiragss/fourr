@@ -16,7 +16,7 @@ export default function social() {
       </Head>
 
       <main>
-        <div className="bg-base-100 flex-col">
+        <div className="bg-slate-200 flex-col">
           <DrawerLayout>
             <section id="feed">
               <div className="projects w-full min-h-screen bg-slate-200">

@@ -35,27 +35,29 @@ const OliverCastroCard = () => {
           />
         </Carousel>
       </figure>
-      <div className="card-body text-gray-700">
-        <h2 className="flex flex-wrap card-title">
-          <img
-            alt="."
-            className="rounded-full w-8 h-8"
-            src="/images/artists/oliver_castro/p.jpeg"
-          />{" "}
-          Oliver Castro
-        </h2>
-        <p className="text-gray-500">
-          <span className="text-yellow-600 inline-flex items-baseline font-bold">
-            <IoMdStar size={14} /> 4.6
-          </span>{" "}
-          (16)
-          <br />
-          R$ 280,00
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Concept Art</div>
+      <a href="/artists/oliver-castro">
+        <div className="card-body text-gray-700">
+          <h2 className="flex flex-wrap card-title">
+            <img
+              alt="."
+              className="rounded-full w-8 h-8"
+              src="/images/artists/oliver_castro/p.jpeg"
+            />{" "}
+            Oliver Castro
+          </h2>
+          <p className="text-gray-500">
+            <span className="text-yellow-600 inline-flex items-baseline font-bold">
+              <IoMdStar size={14} /> 4.6
+            </span>{" "}
+            (16)
+            <br />
+            R$ 280,00
+          </p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Concept Art</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

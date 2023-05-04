@@ -35,6 +35,7 @@ const BrenoOliveiraCard = () => {
           />
         </Carousel>
       </figure>
+      <a href="/artists/breno-oliveira">
       <div className="card-body text-gray-700">
         <h2 className="flex flex-wrap card-title">
           <img
@@ -56,6 +57,7 @@ const BrenoOliveiraCard = () => {
           <div className="badge badge-outline">Ilustração Digital</div>
         </div>
       </div>
+      </a>
     </div>
   );
 };

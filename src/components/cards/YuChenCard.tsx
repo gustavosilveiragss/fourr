@@ -35,27 +35,29 @@ const YuChenCard = () => {
           />
         </Carousel>
       </figure>
-      <div className="card-body text-gray-700">
-        <h2 className="flex flex-wrap card-title">
-          <img
-            alt="."
-            className="rounded-full w-8 h-8"
-            src="/images/artists/yu_chen/p.jpeg"
-          />{" "}
-          Yu Chen
-        </h2>
-        <p className="text-gray-500">
-          <span className="text-yellow-600 inline-flex items-baseline font-bold">
-            <IoMdStar size={14} /> 5.0
-          </span>{" "}
-          (35)
-          <br />
-          R$ 300,00 - R$ 600,00
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Concept Art</div>
+      <a href="/artists/yu-chen">
+        <div className="card-body text-gray-700">
+          <h2 className="flex flex-wrap card-title">
+            <img
+              alt="."
+              className="rounded-full w-8 h-8"
+              src="/images/artists/yu_chen/p.jpeg"
+            />
+            Yu Chen
+          </h2>
+          <p className="text-gray-500">
+            <span className="text-yellow-600 inline-flex items-baseline font-bold">
+              <IoMdStar size={14} /> 5.0
+            </span>
+            (35)
+            <br />
+            R$ 300,00 - R$ 600,00
+          </p>
+          <div className="card-actions justify-end">
+            <div className="badge badge-outline">Concept Art</div>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };
