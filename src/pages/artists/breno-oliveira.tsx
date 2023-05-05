@@ -11,8 +11,8 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>XP | Breno Oliveira</title>
-        <meta name="description" content="XP" />
+        <title>fourr | Breno Oliveira</title>
+        <meta name="description" content="fourr" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/logo.ico" />
       </Head>

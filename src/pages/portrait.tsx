@@ -10,8 +10,8 @@ export default function logos() {
   return (
     <>
       <Head>
-        <title>XP</title>
-        <meta name="description" content="XP" />
+        <title>fourr</title>
+        <meta name="description" content="fourr" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/logo.ico" />
       </Head>

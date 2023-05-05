@@ -11,8 +11,8 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>XP | Alice Santos</title>
-        <meta name="description" content="XP" />
+        <title>fourr | Alice Santos</title>
+        <meta name="description" content="fourr" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icons/logo.ico" />
       </Head>
